@@ -16,5 +16,5 @@ git config --add gitlab.token "abcdefghijskl-1230"
 该shell需要分支按照规定的格式: **parentBranchName_xx**，比如我需要在分支**dev**下创建新的分支，新的分支就是这样**dev_xx**(xx可以是除了下换线的字符)。
 ### 使用
 
-**gl**: 拉去远端分支和父分支。
+**gl**: 拉去远端分支和父分支。<br/>
 **gr**: 发送merge_request到父分支。
