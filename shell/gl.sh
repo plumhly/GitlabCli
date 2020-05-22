@@ -15,11 +15,11 @@ done
 feature="2.0.0"
 user_branch="dev_2.0_lb"
 
-git checkout -b $feature origin/$feature
+git checkout $feature
 git pull origin
 
 git checkout $user_branch
 git pull origin
 
-git merge $feature origin/$user_branch
+git merge $feature
 
